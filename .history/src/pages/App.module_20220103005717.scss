@@ -18,8 +18,8 @@
     .box{
       width: 70%;
       height: 100%;
-     
-     
+      margin: 0px 5px;
+      padding: 0px 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -29,8 +29,6 @@
       .boxleft{
         font-size: 20px;
         color: rgb(51, 51, 51);
-        padding: 0px 5px 0px 100px;
-        margin: 0px 5px ;
       }
       .boxleft::after {
         content: "◦◦◦";
@@ -40,8 +38,6 @@
       .boxright{
         display: inline-flex;
         justify-content: flex-start;
-        padding: 0px 5px 0px 100px;
-        margin: 0px 5px 0px 600px;
         p{
           margin: 0px 10px;
           font-size: 14px;

@@ -6,10 +6,7 @@ import WorkPage from './WorkPage'
 import WorkPageDetail from './WorkPageDetail'
 import Contact from './Contact'
 function App() {
-  //get value of location 
-  
   return (
-    
     <div className={styles.App}>
      <header className={styles.header} >
      <div className={styles.box}>
@@ -17,10 +14,9 @@ function App() {
                  <div className={styles.boxleft}>Profolio</div>
                  </Link>
                <div className={styles.boxright}>
-                  <Link to="/"><p >Home</p></Link>
-                  <Link to="/works"><p >Work</p>
+                  <Link to="/"><p>Home</p></Link>
+                  <Link to="/works"><p>Work</p>
                   </Link>
-                  <Link to="/contact"><p >Contact</p></Link>
                </div>
             </div>
      </header>
@@ -56,4 +52,4 @@ function App() {
   );
 }
 
-export default withRouter(App);
+export default App;

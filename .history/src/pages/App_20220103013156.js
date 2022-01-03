@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import styles from './App.module.scss';
-import{Link,Routes,Route} from 'react-router-dom'
+import{Link,Routes,Route,withRouter} from 'react-router-dom'
 import HomePage from './HomePage'
 import WorkPage from './WorkPage'
 import WorkPageDetail from './WorkPageDetail'
 import Contact from './Contact'
 function App() {
   //get value of location 
-  
+  let{location} = this.props;
   return (
     
     <div className={styles.App}>
@@ -17,10 +17,10 @@ function App() {
                  <div className={styles.boxleft}>Profolio</div>
                  </Link>
                <div className={styles.boxright}>
-                  <Link to="/"><p >Home</p></Link>
-                  <Link to="/works"><p >Work</p>
+                  <Link to="/"><p className={ location.pathname==="/" ? styles.selected : null }>Home</p></Link>
+                  <Link to="/works"><p className={ location.pathname==="/works" ? styles.selected : null }>Work</p>
                   </Link>
-                  <Link to="/contact"><p >Contact</p></Link>
+                  <Link to="/contact"><p className={ location.pathname==="/contact" ? styles.selected : null }>Contact</p></Link>
                </div>
             </div>
      </header>

@@ -4,12 +4,9 @@ import{Link,Routes,Route} from 'react-router-dom'
 import HomePage from './HomePage'
 import WorkPage from './WorkPage'
 import WorkPageDetail from './WorkPageDetail'
-import Contact from './Contact'
+
 function App() {
-  //get value of location 
-  
   return (
-    
     <div className={styles.App}>
      <header className={styles.header} >
      <div className={styles.box}>
@@ -17,10 +14,9 @@ function App() {
                  <div className={styles.boxleft}>Profolio</div>
                  </Link>
                <div className={styles.boxright}>
-                  <Link to="/"><p >Home</p></Link>
-                  <Link to="/works"><p >Work</p>
+                  <Link to="/"><p>Home</p></Link>
+                  <Link to="/works"><p>Work</p>
                   </Link>
-                  <Link to="/contact"><p >Contact</p></Link>
                </div>
             </div>
      </header>
@@ -29,15 +25,14 @@ function App() {
     
        <section className={styles.content}>
          <div>
-         < Routes>
-         <Route path="/" exact element={ <HomePage/> }/>
-           <Route path="/works" exact element={ <WorkPage/>} />
-           <Route path="/works/:id" exact element={ <WorkPageDetail/> } />
-           <Route path="/contact" exact element={ <Contact/> } />
-         </Routes>
+        
+         <Route path="/" exact component={ HomePage } />
+           <Route path="/works" exact component={ WorkPage } />
+           <Route path="/works/:id" exact component={ WorkPageDetail } />
+  
          </div>
       
-       
+
      
 
 
@@ -56,4 +51,4 @@ function App() {
   );
 }
 
-export default withRouter(App);
+export default App;
