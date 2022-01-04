@@ -35,7 +35,14 @@ small{
 }
 ul, ol { 
   list-style:none; 
-  
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+ul ol a:hover{
+      color: aqua;
+
 }
 
 a { 

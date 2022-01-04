@@ -45,7 +45,7 @@ function App() {
      
    {/*footer*/}
       <footer className={styles.footer} >
-     <p>© Copyright<b>2022 Wen Sophie Xu</b></p>
+     <p>© <b>2022 Wen Sophie Xu</b></p>
 
      </footer>
    

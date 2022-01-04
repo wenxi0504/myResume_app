@@ -18,7 +18,7 @@ export default () => {
        </ul>
        <p>Welcome to my personal portfolio website. Please feel free to explore my website.</p>
        <p>I am a curious, motivated and driven software developer with 4 years of experience in project management in an IT company. I have worked for dozens of projects. I am familiar with HTML,CSS,JavaScript, React,NodeJS, C#, Java,SQL etc </p>
-       <p>I love socializing and make friends. I have been travelling for many countries and cities such as HongKong, Philippines, Vietnam etc. I am an addiction for watermelon. </p>
+       <p>I love socializing and make friends. I have been travelling for many countries and cities such as HongKong, Philippines, Vietnam etc. I am an addiction for watermelon </p>
        </section>
         
          {/* work portfolio */}

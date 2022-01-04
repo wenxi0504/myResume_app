@@ -1,0 +1,23 @@
+.worklist{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+         li{
+            width: 45%;            
+            margin-bottom: 45px;
+            a{
+              display: inline-flex;
+              justify-content: space-between;
+              .cover{
+                img{
+                  width: 50px;
+                  border-radius: 5px;
+                }
+                }
+              
+            }
+         }
+      }
+}
