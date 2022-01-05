@@ -31,9 +31,12 @@
           object-fit:cover;
         }
         padding: 0px 5px 0px 100px;
-        margin: 10px 5px;
+        margin: 5px 5px;
       }
-      
+      .boxleft::after {
+        content: "◦◦◦";
+        margin-left: 0.5em;
+      }
 
       .boxright {
         display: inline-flex;

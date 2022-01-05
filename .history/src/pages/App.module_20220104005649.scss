@@ -25,15 +25,15 @@
         text-decoration: none;
       }
       .boxleft {
-        img{
-          width:80px;
-          height:70px;
-          object-fit:cover;
-        }
+        font-size: 20px;
+        color: rgb(51, 51, 51);
         padding: 0px 5px 0px 100px;
-        margin: 10px 5px;
+        margin: 0px 5px;
       }
-      
+      .boxleft::after {
+        content: "◦◦◦";
+        margin-left: 0.5em;
+      }
 
       .boxright {
         display: inline-flex;
@@ -54,7 +54,6 @@
   .footer {
     text-align: center;
     padding: 20px 0px;
-    margin-top: 10px;;
     color: rgb(102, 102, 102);
     background: #fafafa;
     border-top: 2px solid #f2f2f2;

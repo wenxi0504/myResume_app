@@ -9,7 +9,7 @@ export default () => {
     <div className={styles.wrap}>
       <div className={styles.title}>
         <h3>My portfolio</h3>
-        <p>A collection of different things I have worked on and working on now.</p>
+        <p>A collection of different things I have worked on.</p>
       </div>
       <WorkLists dataSource={portfolioData.data} />
     </div>

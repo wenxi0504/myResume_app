@@ -26,14 +26,17 @@
       }
       .boxleft {
         img{
-          width:80px;
-          height:70px;
+          width:50px;
+          height:50px;
           object-fit:cover;
         }
         padding: 0px 5px 0px 100px;
-        margin: 10px 5px;
+        margin: 0px 5px;
       }
-      
+      .boxleft::after {
+        content: "◦◦◦";
+        margin-left: 0.5em;
+      }
 
       .boxright {
         display: inline-flex;

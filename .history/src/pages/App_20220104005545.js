@@ -14,9 +14,7 @@ function App() {
       <header className={styles.header}>
         <div className={styles.box}>
           <Link to="/">
-            <div className={styles.boxleft}>
-              <img src={require("../../src/assets/images/logo.jpg")} alt="sophie"/>
-            </div>
+            <div className={styles.boxleft}>Profolio</div>
           </Link>
           <div className={styles.boxright}>
             <Link to="/">
