@@ -45,9 +45,10 @@
           font-size: 14px;
           color: rgb(102, 102, 102);
          
-    
+      transform:scaleX(0);
+      transform-origin: right;
+      transition: transform 0.5s;
         }
-        
       }
       div {
         cursor: pointer;

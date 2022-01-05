@@ -15,7 +15,10 @@
     }
     p {
       color: rgba(0, 0, 0, 0.7);
-     
+      background:brown;
+      transform:scaleX(0);
+      transform-origin: right;
+      transition: transform 0.5s;
     }
     
   }

@@ -44,10 +44,11 @@
           margin: 0px 10px;
           font-size: 14px;
           color: rgb(102, 102, 102);
-         
-    
+          background:brown;
+      transform:scaleX(0);
+      transform-origin: right;
+      transition: transform 0.5s;
         }
-        
       }
       div {
         cursor: pointer;
