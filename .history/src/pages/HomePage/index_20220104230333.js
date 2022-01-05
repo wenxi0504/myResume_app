@@ -32,7 +32,7 @@ export default () => {
           React,NodeJS, C#, Java,SQL etc{" "}
         </p>
         <p>
-          I love socializing and have many friends. I have been travelling for many
+          I love socializing and make friends. I have been travelling for many
           countries and cities such as HongKong, Philippines, Vietnam etc. I am
           an addiction for watermelon.{" "}
         </p>

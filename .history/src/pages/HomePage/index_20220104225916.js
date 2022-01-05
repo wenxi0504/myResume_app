@@ -8,12 +8,11 @@ export default () => {
     <div className={styles.wrap}>
       {/* Personal Info*/}
       <section className={styles.brief}>
-        <div  className={styles.backgroundColor}>
         <img
+          className={styles.backgroundColor}
           src={require("../../assets/images/wenxuReact2.jpg")}
           alt="sophie"
         />
-        </div>
         <h2>Wen Xu(Sophie)</h2>
 
         <ul>
@@ -32,7 +31,7 @@ export default () => {
           React,NodeJS, C#, Java,SQL etc{" "}
         </p>
         <p>
-          I love socializing and have many friends. I have been travelling for many
+          I love socializing and make friends. I have been travelling for many
           countries and cities such as HongKong, Philippines, Vietnam etc. I am
           an addiction for watermelon.{" "}
         </p>
