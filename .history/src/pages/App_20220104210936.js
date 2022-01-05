@@ -3,6 +3,7 @@ import styles from "./App.module.scss";
 import { Link, Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import WorkPage from "./WorkPage";
+import WorkPageDetail from "./WorkPageDetail";
 import Contact from "./Contact";
 function App() {
   //get value of location

@@ -9,9 +9,8 @@ export default () => {
       <div className={styles.title}>
         <h1>Contact Me</h1>
         <p>Email: wenxi1988@hotmail.com</p>
-        <img src={require("../../assets/images/8530611_hand_point_right_icon.png")} alt="right pointer"/>
-        <a  href={"https://onedrive.live.com/embed?cid=962C89212FFCD98B&resid=962C89212FFCD98B%2127301&authkey=ANmidHzG6CnqqhE"}>Resume Link</a>
-         
+
+        <div>Icons made by <a href="" title="ariefstudio">ariefstudio</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><a  href={"https://onedrive.live.com/embed?cid=962C89212FFCD98B&resid=962C89212FFCD98B%2127301&authkey=ANmidHzG6CnqqhE"}>Resume Link</a>
           </div>
     </div>
 
